@@ -9,7 +9,7 @@
             <mxRectangle height="30" width="90" x="370" y="200" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GCuz6E3EBiHqZI_xGS0Z-7" parent="GCuz6E3EBiHqZI_xGS0Z-3" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;&quot;&gt;&amp;nbsp;- bal: int&lt;/span&gt;" vertex="1">
+        <mxCell id="GCuz6E3EBiHqZI_xGS0Z-7" parent="GCuz6E3EBiHqZI_xGS0Z-3" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;&quot;&gt;&amp;nbsp;- bal: float&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="140" y="30" as="geometry" />
         </mxCell>
         <mxCell id="GCuz6E3EBiHqZI_xGS0Z-4" parent="GCuz6E3EBiHqZI_xGS0Z-3" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="+ getBal() : int" vertex="1">
@@ -19,34 +19,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GCuz6E3EBiHqZI_xGS0Z-8" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Journal" vertex="1">
-          <mxGeometry height="300" width="260" x="460" y="430" as="geometry" />
+          <mxGeometry height="300" width="340" x="460" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="GCuz6E3EBiHqZI_xGS0Z-9" parent="GCuz6E3EBiHqZI_xGS0Z-8" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" value="- students : List&amp;lt;Student&amp;gt;" vertex="1">
-          <mxGeometry height="30" width="260" y="30" as="geometry" />
+        <mxCell id="GCuz6E3EBiHqZI_xGS0Z-9" parent="GCuz6E3EBiHqZI_xGS0Z-8" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" value="- students : std::vector&amp;lt;Student*&amp;gt;&amp;nbsp;students" vertex="1">
+          <mxGeometry height="30" width="340" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="8Yin8r3933yuqEZvRl84-10" parent="GCuz6E3EBiHqZI_xGS0Z-8" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" value="- teacher&amp;nbsp;: List&amp;lt;Teacher&amp;gt;&amp;nbsp;" vertex="1">
-          <mxGeometry height="30" width="260" y="60" as="geometry" />
+        <mxCell id="8Yin8r3933yuqEZvRl84-10" parent="GCuz6E3EBiHqZI_xGS0Z-8" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" value="- teacher&amp;nbsp;: std::vector&amp;lt;Teacher*&amp;gt;&amp;nbsp;teachers" vertex="1">
+          <mxGeometry height="30" width="340" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="8Yin8r3933yuqEZvRl84-49" parent="GCuz6E3EBiHqZI_xGS0Z-8" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" value="- homework&amp;nbsp;: List&amp;lt;Homework&amp;gt;&amp;nbsp;" vertex="1">
-          <mxGeometry height="30" width="260" y="90" as="geometry" />
+        <mxCell id="8Yin8r3933yuqEZvRl84-49" parent="GCuz6E3EBiHqZI_xGS0Z-8" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" value="- homework&amp;nbsp;: std::vector&amp;lt;Homework*&amp;gt;&amp;nbsp;homework&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="340" y="90" as="geometry" />
         </mxCell>
         <mxCell id="GCuz6E3EBiHqZI_xGS0Z-10" parent="GCuz6E3EBiHqZI_xGS0Z-8" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;gradientColor=none;rounded=0;glass=0;shadow=0;strokeWidth=1;" value="+ addStudent() : void" vertex="1">
-          <mxGeometry height="30" width="260" y="120" as="geometry" />
+          <mxGeometry height="30" width="340" y="120" as="geometry" />
         </mxCell>
         <mxCell id="GCuz6E3EBiHqZI_xGS0Z-28" parent="GCuz6E3EBiHqZI_xGS0Z-8" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;gradientColor=none;rounded=0;glass=0;shadow=0;strokeWidth=1;" value="+ addTeacher() : void" vertex="1">
-          <mxGeometry height="30" width="260" y="150" as="geometry" />
+          <mxGeometry height="30" width="340" y="150" as="geometry" />
         </mxCell>
         <mxCell id="GCuz6E3EBiHqZI_xGS0Z-11" parent="GCuz6E3EBiHqZI_xGS0Z-8" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" value="+ delStudent() : void" vertex="1">
-          <mxGeometry height="30" width="260" y="180" as="geometry" />
+          <mxGeometry height="30" width="340" y="180" as="geometry" />
         </mxCell>
         <mxCell id="GCuz6E3EBiHqZI_xGS0Z-29" parent="GCuz6E3EBiHqZI_xGS0Z-8" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" value="+ delTeacher() : void" vertex="1">
-          <mxGeometry height="30" width="260" y="210" as="geometry" />
+          <mxGeometry height="30" width="340" y="210" as="geometry" />
         </mxCell>
         <mxCell id="8Yin8r3933yuqEZvRl84-33" parent="GCuz6E3EBiHqZI_xGS0Z-8" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="+ addHomework() : void" vertex="1">
-          <mxGeometry height="30" width="260" y="240" as="geometry" />
+          <mxGeometry height="30" width="340" y="240" as="geometry" />
         </mxCell>
         <mxCell id="GCuz6E3EBiHqZI_xGS0Z-19" parent="GCuz6E3EBiHqZI_xGS0Z-8" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="+ showHomework() : void" vertex="1">
-          <mxGeometry height="30" width="260" y="270" as="geometry" />
+          <mxGeometry height="30" width="340" y="270" as="geometry" />
         </mxCell>
         <mxCell id="8Yin8r3933yuqEZvRl84-32" edge="1" parent="1" source="GCuz6E3EBiHqZI_xGS0Z-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="GCuz6E3EBiHqZI_xGS0Z-8">
           <mxGeometry relative="1" as="geometry" />
