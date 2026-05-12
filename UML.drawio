@@ -12,7 +12,7 @@
         <mxCell id="GCuz6E3EBiHqZI_xGS0Z-7" parent="GCuz6E3EBiHqZI_xGS0Z-3" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;&quot;&gt;&amp;nbsp;- bal: float&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="140" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="GCuz6E3EBiHqZI_xGS0Z-4" parent="GCuz6E3EBiHqZI_xGS0Z-3" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="+ getBal() : int" vertex="1">
+        <mxCell id="GCuz6E3EBiHqZI_xGS0Z-4" parent="GCuz6E3EBiHqZI_xGS0Z-3" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="+ getBal() : float" vertex="1">
           <mxGeometry height="30" width="140" y="60" as="geometry" />
         </mxCell>
         <mxCell id="8Yin8r3933yuqEZvRl84-43" edge="1" parent="1" source="GCuz6E3EBiHqZI_xGS0Z-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="GCuz6E3EBiHqZI_xGS0Z-16">
